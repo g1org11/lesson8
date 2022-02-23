@@ -78,6 +78,7 @@ input::placeholder{
     
 
 }
+
 input:focus{
     outline: none;
 }
@@ -86,7 +87,18 @@ textarea{
     width: 463px;
     height: 140px;
     background-color: #0A22F4;
+    border: 0;
+    border-bottom: 1px solid black;
 }
+textarea::placeholder{
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+
+}
+
 textarea:focus{
     outline: none;
 }
@@ -96,12 +108,17 @@ input[type=submit]{
     width: 151px;
     height: 55px;
     background-color: #FFFFFF;
-    border-radius: 20px;
+    border-radius: 28px;
     font-size: 16px;
     line-height: 19px;
     text-transform: uppercase;
     margin-top: 40px;
+    margin-left: 300px;
+    
+    
 }
+
+
 .footer-conteiner{
     background-color: #0A22F4;
     max-width: 1920px; 
@@ -130,9 +147,10 @@ input[type=submit]{
     height: 35px;
     margin-left: 30px;
 }
-.footer-info a{
+.footer-info p{
     font-size: 13px;
     line-height: 16px;
+    color: #FFFFFF;
 }
 .picture{
     width: 26px;
